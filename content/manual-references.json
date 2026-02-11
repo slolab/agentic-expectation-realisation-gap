@@ -1,22 +1,111 @@
 [
 {
-  "id": "url:https://github.com/manubot/rootstock",
+  "id": "microsoft-dax-blog",
   "type": "webpage",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
-  "container-title": "GitHub",
+  "URL": "https://www.microsoft.com/en-us/industry/blog/healthcare/2024/08/08/dax-copilot-new-customization-options-and-ai-capabilities-for-even-greater-productivity/",
+  "title": "DAX Copilot: new customization options and AI capabilities for even greater productivity",
+  "container-title": "Microsoft Industry Blogs",
   "issued": {
     "date-parts": [
       [
-        2019
+        2024,
+        8,
+        8
       ]
     ]
   },
   "author": [
     {
-      "given": "Daniel",
-      "family": "Himmelstein"
+      "literal": "Microsoft"
     }
   ]
+},
+{
+  "id": "ibm-watson-asco-2017",
+  "type": "webpage",
+  "URL": "https://uk.newsroom.ibm.com/2017-06-01-At-ASCO-2017-Clinicians-Present-New-Evidence-about-Watson-Cognitive-Technology-and-Cancer-Care",
+  "title": "At ASCO 2017, clinicians present new evidence about Watson cognitive technology and cancer care",
+  "container-title": "IBM Newsroom",
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        6,
+        1
+      ]
+    ]
+  },
+  "author": [
+    {
+      "literal": "IBM"
+    }
+  ]
+},
+{
+  "id": "mit-genai-copilot-field",
+  "type": "article-journal",
+  "URL": "https://mit-genai.pubpub.org/pub/v5iixksv",
+  "title": "The impact of generative AI on software developer productivity: evidence from two field experiments",
+  "container-title": "MIT GenAI Impact",
+  "issued": {
+    "date-parts": [
+      [
+        2025
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Kevin",
+      "family": "Cui"
+    },
+    {
+      "given": "Deepak",
+      "family": "Paramanand"
+    },
+    {
+      "given": "Robert",
+      "family": "Sloyan"
+    }
+  ]
+},
+{
+  "id": "chatgpt-retention-rct",
+  "type": "article-journal",
+  "URL": "https://www.sciencedirect.com/science/article/pii/S2590291125010186",
+  "title": "The hidden cost of AI: ChatGPT use impairs long-term knowledge retention in university students",
+  "container-title": "International Journal of Educational Research Open",
+  "issued": {
+    "date-parts": [
+      [
+        2025
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Muhammad Farrukh",
+      "family": "Shahzad"
+    }
+  ]
+},
+{
+  "id": "doi:10.1234/aac",
+  "type": "article-journal",
+  "title": "The Agentic Automation Canvas: a structured framework for agentic AI project design",
+  "author": [
+    {
+      "given": "Sebastian",
+      "family": "Lobentanzer"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2025
+      ]
+    ]
+  },
+  "note": "Manuscript in preparation"
 }
 ]
