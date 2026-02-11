@@ -1,5 +1,5 @@
 AAC
-agentic
+Agentic
 arxiv
 AUC
 ChatGPT

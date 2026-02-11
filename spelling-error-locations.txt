@@ -57,3 +57,17 @@ content/02.main-text.md:115:AAC
 content/02.main-text.md:120:agentic
 content/02.main-text.md:120:directionally
 content/02.main-text.md:121:pre
+content/xx.expectation-realisation-gap-figure.md:60:agentic
+content/xx.expectation-realisation-gap-figure.md:65:agentic
+content/xx.expectation-realisation-gap-figure.md:67:DAX
+content/xx.expectation-realisation-gap-figure.md:71:AUC
+content/xx.expectation-realisation-gap-figure.md:71:AUC
+content/xx.expectation-realisation-gap-figure.md:74:METR
+content/xx.expectation-realisation-gap-figure.md:83:agentic
+content/xx.expectation-realisation-gap-figure.md:86:EHR
+content/xx.expectation-realisation-gap-figure.md:99:pre
+content/xx.expectation-realisation-gap-figure.md:100:METR
+content/xx.expectation-realisation-gap-figure.md:112:AUC
+content/xx.expectation-realisation-gap-figure.md:116:ChatGPT
+content/xx.expectation-realisation-gap-figure.md:116:EHR
+content/xx.expectation-realisation-gap-figure.md:142:Agentic
