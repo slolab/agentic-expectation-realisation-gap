@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-11" />
   <meta name="citation_publication_date" content="2026-02-11" />
   <meta property="article:published_time" content="2026-02-11" />
-  <meta name="dc.modified" content="2026-02-11T19:31:19+00:00" />
-  <meta property="article:modified_time" content="2026-02-11T19:31:19+00:00" />
+  <meta name="dc.modified" content="2026-02-11T19:31:51+00:00" />
+  <meta property="article:modified_time" content="2026-02-11T19:31:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/f94562f743a14fce71d99382ca7032859b813e5d/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/f94562f743a14fce71d99382ca7032859b813e5d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/f94562f743a14fce71d99382ca7032859b813e5d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/8acbf35d30251f5e5a86615edae1d06ee8cefc93/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/8acbf35d30251f5e5a86615edae1d06ee8cefc93/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/8acbf35d30251f5e5a86615edae1d06ee8cefc93/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/f94562f743a14fce71d99382ca7032859b813e5d/))
+([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/8acbf35d30251f5e5a86615edae1d06ee8cefc93/))
 was automatically generated
-from [slolab/agentic-expectation-realisation-gap@f94562f](https://github.com/slolab/agentic-expectation-realisation-gap/tree/f94562f743a14fce71d99382ca7032859b813e5d)
+from [slolab/agentic-expectation-realisation-gap@8acbf35](https://github.com/slolab/agentic-expectation-realisation-gap/tree/8acbf35d30251f5e5a86615edae1d06ee8cefc93)
 on February 11, 2026.
 </em></small>
 
