@@ -1,14 +1,16 @@
 ---
-title: Manuscript Title
+title: Quantifying the Expectation–Realisation Gap for Agentic AI Systems
 keywords:
-- markdown
-- publishing
-- manubot
+- agentic systems
+- generative AI
+- automation
+- expectation management
+- evaluation
+- governance
 lang: en-US
 date-meta: '2026-02-11'
 author-meta:
-- John Doe
-- Jane Roe
+- Sebastian Lobentanzer
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -16,38 +18,34 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
+  <meta name="citation_title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
+  <meta property="og:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
+  <meta property="twitter:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
   <meta name="dc.date" content="2026-02-11" />
   <meta name="citation_publication_date" content="2026-02-11" />
   <meta property="article:published_time" content="2026-02-11" />
-  <meta name="dc.modified" content="2026-02-11T18:20:12+00:00" />
-  <meta property="article:modified_time" content="2026-02-11T18:20:12+00:00" />
+  <meta name="dc.modified" content="2026-02-11T18:52:51+00:00" />
+  <meta property="article:modified_time" content="2026-02-11T18:52:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Sebastian Lobentanzer" />
+  <meta name="citation_author_institution" content="Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany" />
+  <meta name="citation_author_institution" content="German Center for Diabetes Research, Munich, Germany" />
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3399-6695" />
   <link rel="canonical" href="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta property="og:url" content="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta property="twitter:url" content="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/36d1b56cd624190b92df6d99911d43c96a1109ee/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/36d1b56cd624190b92df6d99911d43c96a1109ee/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/36d1b56cd624190b92df6d99911d43c96a1109ee/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/))
+([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/36d1b56cd624190b92df6d99911d43c96a1109ee/))
 was automatically generated
-from [slolab/agentic-expectation-realisation-gap@f44f9bb](https://github.com/slolab/agentic-expectation-realisation-gap/tree/f44f9bbe35441a8acd51a5898e6e739acaf54c1c)
+from [slolab/agentic-expectation-realisation-gap@36d1b56](https://github.com/slolab/agentic-expectation-realisation-gap/tree/36d1b56cd624190b92df6d99911d43c96a1109ee)
 on February 11, 2026.
 </em></small>
 
@@ -81,38 +79,22 @@ on February 11, 2026.
 
 
 
-+ **John Doe**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@johndoe@mastodon.social](https://mastodon.social/@johndoe)
-    <br>
-  <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**
++ **Sebastian Lobentanzer**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [https://orcid.org/0000-0003-3399-6695](https://orcid.org/https://orcid.org/0000-0003-3399-6695)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
+    [slobentanzer](https://github.com/slobentanzer)
     <br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany; German Center for Diabetes Research, Munich, Germany
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/slolab/agentic-expectation-realisation-gap/issues)
 or email to
-Jane Roe \<jane.roe@whatever.edu\>.
+Sebastian Lobentanzer \<sebastian.lobentanzer@helmholtz-munich.de\>.
 
 
 :::
@@ -120,304 +102,141 @@ Jane Roe \<jane.roe@whatever.edu\>.
 
 ## Abstract {.page_break_before}
 
+Agentic AI systems are deployed with expectations of substantial productivity gains, yet rigorous empirical evidence reveals systematic discrepancies between pre-deployment expectations and post-deployment outcomes.
+We review controlled trials and independent validations across software engineering, clinical documentation, and clinical decision support to quantify this expectation--realisation gap.
+In software development, experienced developers expected a 24% speedup from AI tools but were slowed by 19%---a 43 percentage-point calibration error.
+In clinical documentation, vendor claims of multi-minute time savings contrast with measured reductions of less than one minute per note, and one widely deployed tool showed no statistically significant effect.
+In clinical decision support, externally validated performance falls substantially below developer-reported metrics.
+These shortfalls are driven by workflow integration friction, verification burden, measurement construct mismatches, and systematic heterogeneity in treatment effects.
+The evidence motivates structured planning frameworks that require explicit, quantified benefit expectations with human oversight costs factored in.
 
 
+## Introduction {.page_break_before}
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
+Agentic AI systems---autonomous software agents that plan, reason, and execute multi-step tasks with limited human oversight---are being adopted across software engineering, clinical medicine, and customer operations with the expectation of transformative productivity gains.
+Vendor announcements routinely promise multi-minute time savings per encounter, double-digit percentage speedups, or near-expert-level decision accuracy.
+Procurement and investment decisions follow these expectations, committing substantial resources before deployment-grade evidence is available.
 
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
+Yet a growing body of controlled trials and independent external validations reveals that realised outcomes frequently fall short of pre-deployment expectations---sometimes dramatically so.
+This discrepancy, which we term the *expectation--realisation gap*, is not simply a matter of immature technology.
+It reflects systematic patterns in how agentic systems interact with human workflows, how performance is measured, and how benefits are distributed across user populations.
 
-## Basic formatting
+Understanding and quantifying this gap is a prerequisite for responsible deployment.
+Without structured, quantified expectations that account for real-world integration costs, organisations risk over-investing in systems that deliver marginal gains at best or impose net costs at worst.
+This review synthesises the strongest available empirical evidence for the expectation--realisation gap across three domains---software engineering, clinical documentation, and clinical decision support---identifies the mechanistic drivers of shortfalls, and argues that structured planning frameworks with explicit benefit quantification are necessary to close the gap between aspiration and reality.
 
-**Bold** __text__
+## Evidence from controlled trials
 
-[Semi-bold text]{.semibold}
+### Software engineering copilots
 
-[Centered text]{.center}
+The sharpest illustration of the expectation--realisation gap comes from a randomised controlled trial conducted by METR (Model Evaluation & Threat Research) on 16 experienced open-source developers working in their own mature repositories across 246 real tasks [@arxiv:2507.09089].
+Before each task, participants forecast that AI assistance would reduce their completion time by 24%.
+The measured outcome was a 19% *increase* in completion time---a 43 percentage-point calibration error on the time-change scale, and a complete reversal in direction.
+Tasks took approximately 56% longer than developers expected (realised completion time factor 1.19 versus expected 0.76).
 
-[Right-aligned text]{.right}
+This result contrasts instructively with a pre-release controlled trial of GitHub Copilot on developers recruited via Upwork, where treated participants completed a standardised, self-contained programming task 55.8% faster (95% CI 21--89%) [@arxiv:2302.06590].
+In that experiment, participants' self-estimated productivity gains averaged approximately 35%, meaning they *underestimated* the realised speedup.
+The divergence between these two trials is the key finding: on constrained, well-defined tasks, AI coding tools can exceed expectations; in high-context, real-world repositories, the same class of tools can impose net costs that developers fail to anticipate.
 
-*Italic* _text_
+Field experiments at Microsoft and Accenture provide intermediate evidence: developers assigned to Copilot completed 12.9--21.8% more pull requests per week at Microsoft and 7.5--8.7% more at Accenture, though the authors emphasise imprecision and threats to inference including low compliance and organisational confounds [@mit-genai-copilot-field].
+Crucially, these throughput metrics do not account for code quality: independent security analyses find that 32.8% of Python and 24.5% of JavaScript snippets generated by Copilot are flagged with security issues [@arxiv:2310.02059], and Copilot can replicate known-vulnerable code patterns at rates around 33% [@arxiv:2204.04741].
+Productivity gains that increase review, remediation, and incident risk are not net gains.
 
-Combined *italics and __bold__*
+### Clinical documentation agents
 
-~~Strikethrough~~
+Ambient AI scribes---systems that listen to clinical encounters and generate draft documentation---represent one of the most actively deployed categories of agentic AI in healthcare.
+Vendor procurement narratives frequently frame benefits in terms of "minutes saved per encounter"; for instance, Microsoft publicised "5 minutes saved per clinician per encounter on average" for its DAX Copilot product [@microsoft-dax-blog].
 
-1. Ordered list item
-2. Ordered list item
-    a. Sub-item
-    b. Sub-item
-        i. Sub-sub-item
-3. Ordered list item
-    a. Sub-item
+The strongest trial evidence tells a different story.
+A randomised controlled trial at UCLA across 238 physicians in 14 specialties compared two commercial ambient scribe tools (DAX and Nabla) against usual care, with approximately 24,000 encounters per arm [@pmc:PMC12768499].
+Nabla reduced time-in-note by 9.5% relative to control (95% CI −17.2 to −1.8; P=0.02), while DAX showed no statistically significant effect (−1.7%, 95% CI −9.4 to +5.9; P=0.66).
+Partial adoption was a key contextual factor: the tools were used in only approximately 30--34% of visits, and roughly 15% of treatment-group physicians never used their assigned scribe at all.
+Clinicians did not strongly endorse that generated notes were "at least as good as my own," rating this near neutral, and clinically significant inaccuracies were reported as occurring "occasionally."
 
-- List item
-- List item
-- List item
+A peer-matched cohort study of DAX in an integrated delivery system (99 providers, 12 specialties) found documentation EHR time fell from 5.3 to 4.54 minutes per patient---a saving of approximately 46 seconds---while after-hours EHR time *worsened* significantly, suggesting time-shifting rather than uniform savings [@pmc:PMC10990544].
+A pre/post study of the Abridge ambient listening tool across 332 physicians confirmed sub-minute savings: mean time in notes per note fell from 5.11 to 4.16 minutes (difference 0.95 minutes, 95% CI 0.48--1.42) [@pmc:PMC12657781].
 
-subscript: H~2~O is a liquid
+Perhaps most revealing is the perception--reality mismatch documented in a study of 252 physicians: 86.5% *perceived* that their documentation time had decreased, yet there was no overall association between perceived reductions and objectively measured time changes (OR 0.975, P=0.144) [@pubmed:41592210].
+The objective effect was modest: each 10 percentage-point increase in AI scribe usage was associated with approximately 30 seconds lower documentation time per scheduled hour.
 
-superscript: 2^10^ is 1024.
+### Clinical decision support
 
-[unicode superscripts](https://www.google.com/search?q=superscript+generator)⁰¹²³⁴⁵⁶⁷⁸⁹
+Independent external validation of proprietary clinical AI models provides some of the starkest expectation--realisation gaps.
+The Epic Sepsis Model, widely implemented across US hospitals, was externally validated in a large academic health system (38,455 hospitalisations) with an area under the receiver operating characteristic curve (AUC) of 0.63 (95% CI 0.62--0.64), while Epic's internal documentation reported AUC values of 0.76--0.83 [@doi:10.1001/jamainternmed.2021.3333].
+At an operational alert threshold, the model achieved only 33% sensitivity, raising questions about clinical utility at scale.
 
-[unicode subscripts](https://www.google.com/search?q=superscript+generator)₀₁₂₃₄₅₆₇₈₉
+A similar pattern appears in oncology decision support.
+IBM publicised concordance rates as high as 96% for Watson for Oncology in lung cancer cases relative to a multidisciplinary tumour board [@ibm-watson-asco-2017].
+A subsequent peer-reviewed retrospective study in Korea found strict concordance of 48.9% for colon cancer, with "acceptable" concordance of 65.8% and strong heterogeneity by patient age (concordance dropping to approximately 20% among patients aged 70 and older) [@pubmed:30652564].
+This discrepancy reflects both definition dependence---concordance rises substantially when "for consideration" is treated as concordant---and local constraint mismatches in guidelines, reimbursement, and patient demographics that prevent cross-site transferability.
 
-A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Why expectations overshoot
 
-Putting each sentence on its own line has numerous benefits with regard to [editing](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line) and [version control](https://rhodesmill.org/brandon/2012/one-sentence-per-line/).
+The empirical evidence points to three recurrent mechanistic drivers that explain why expectations systematically exceed realised outcomes.
 
-Line break without starting a new paragraph by putting  
-two spaces at end of line.
+**Workflow integration friction and partial adoption.**
+Agentic AI systems do not operate in isolation; they must integrate into existing workflows, tools, and team practices.
+Clinical scribe evaluations repeatedly show partial adoption---tools used in a minority of encounters, with non-trivial drop-off over time [@pmc:PMC12768499; @pmc:PMC10990544].
+Even when per-use effects are real, intention-to-treat estimates are attenuated by low compliance, and the practical benefit to an organisation depends on the adoption rate actually achieved, not the rate assumed during procurement.
+This is not a temporary onboarding issue; the UCLA RCT's 30--34% utilisation rate was observed over the full study period.
 
-## Document organization
+**Verification and review burden.**
+Agentic systems generate outputs that require human verification, and this verification cost is rarely accounted for in pre-deployment projections.
+In the METR software engineering trial, the net slowdown occurred because the time spent reviewing, debugging, and integrating AI-generated code exceeded the time saved in initial generation [@arxiv:2507.09089].
+In clinical documentation, neutral ratings on note quality and "occasional" clinically significant inaccuracies indicate non-trivial editing and review work that partially or fully offsets time-in-note reductions [@pmc:PMC12768499].
+The DAX cohort's simultaneous reduction in documentation time and *increase* in after-hours EHR time is a concrete example of time-shifting: the verification and cleanup work does not disappear, it moves [@pmc:PMC10990544].
 
-Document section headings:
+**Measurement construct mismatch.**
+Pre-deployment expectations are often framed in metrics that do not correspond to what deployment-grade evaluations actually measure.
+Vendor claims of "minutes saved per encounter" refer to broader workflow impacts, while trial outcomes measure "time-in-note"---one slice of documentation burden [@pmc:PMC12768499].
+Developer-reported model performance (AUC 0.76--0.83 for Epic's sepsis model) reflects evaluation choices---time horizons, denominators, and inclusion of post-onset predictions---that systematically inflate apparent discrimination relative to operational alerting performance [@doi:10.1001/jamainternmed.2021.3333].
+The gap between lab-task performance and field performance in software copilots is a measurement construct problem at its core: bounded tasks estimate *tool capability under low-context load*, while field trials estimate *net productivity under realistic verification and integration costs* [@arxiv:2507.09089; @arxiv:2302.06590].
 
-# Heading 1
+## Heterogeneity as the default
 
-## Heading 2
+Across every domain reviewed, treatment effects are not uniform.
+They are systematically moderated by baseline user efficiency, task complexity, and local context.
+This heterogeneity is not noise---it is the central empirical regularity.
 
-### Heading 3
+In clinical documentation, objective time savings from AI scribes concentrate among physicians with higher baseline documentation inefficiency; efficient documenters derive minimal benefit [@pubmed:41592210].
+In customer support, a field study of 5,172 agents found an average 15% productivity increase from a generative AI assistant, but gains were heavily concentrated among less experienced and lower-skilled workers, while the most experienced agents saw smaller gains and occasional quality declines [@arxiv:2304.11771].
+In software engineering, the METR trial specifically selected experienced developers working in familiar repositories---precisely the population most likely to have optimised their workflows already---and this is the population that was slowed [@arxiv:2507.09089].
 
-#### Heading 4
+The implication is direct: there is no stable, globally positive treatment effect for agentic AI.
+Average headline figures (whether from vendors, lab trials, or even well-designed field studies) will systematically misrepresent the benefit realised by any specific user, team, or organisation.
+Planning that relies on average expected gains without modelling who benefits and who does not will over-invest in low-yield deployments and under-invest in targeted high-yield ones.
 
-##### Heading 5
+Adjacent experimental evidence reinforces this concern on a longer time horizon.
+A randomised controlled trial in higher education found that students who used ChatGPT as a study aid scored significantly lower on a surprise retention test 45 days later (57.5% vs 68.5%; Cohen's d = 0.68) [@chatgpt-retention-rct], suggesting that cognitive offloading can trade immediate task completion for degraded durable learning---a dimension of "benefit" that short-term productivity metrics entirely miss.
 
-###### Heading 6
+## Implications for structured planning
 
-### A heading centered on its own printed page{.center .page_center}
+The evidence reviewed here converges on a clear conclusion: pre-deployment expectations for agentic AI systems are poorly calibrated, and the resulting expectation--realisation gap is large enough to undermine investment decisions, deployment strategies, and trust.
+This is not an argument against agentic AI---the evidence also shows that real gains exist in specific contexts and for specific user populations.
+It is an argument for *structured planning that takes the gap seriously*.
 
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
+Several design principles follow directly from the empirical patterns.
+First, benefit expectations must be *explicit and quantified*, not framed as vague promises of efficiency.
+The contrast between "5 minutes saved per encounter" marketing and sub-minute measured reductions illustrates what happens when expectations lack precision.
+Second, expectations should capture *dual perspectives*---what users expect to gain and what developers assess as technically feasible---because miscalibration occurs on both sides (developers overshoot in internal validation; users overshoot in self-forecasts).
+Third, *human oversight costs must be deducted* from projected benefits.
+Every controlled trial reviewed here shows that verification, review, and cleanup absorb a substantial fraction of the gross time savings; ignoring this yields unrealistic net benefit estimates.
+Fourth, *outcome metrics must link back to initial expectations* in the same units and at the same level of granularity, enabling direct comparison rather than post hoc rationalisation.
+Fifth, heterogeneity should be *modelled explicitly* by specifying which user populations and task types are expected to benefit, rather than assuming uniform effects.
 
-Horizontal rule:
+These principles are implemented in the Agentic Automation Canvas (AAC), a structured framework for designing, governing, and documenting agentic automation projects that captures user expectations as quantified benefit metrics with baseline values, confidence levels from both user and developer perspectives, and explicit human oversight accounting [@doi:10.1234/aac].
+<!-- TODO: update AAC citation when DOI is available -->
+The canvas formalises the bidirectional contract between stakeholders that the evidence reviewed here shows is necessary: without structured mechanisms for surfacing and testing expectations, the gap between aspiration and reality will persist.
 
----
+## Conclusion
 
-`Heading 1`'s are recommended to be reserved for the title of the manuscript.
+The expectation--realisation gap for agentic AI systems is empirically documented, directionally consistent, and mechanistically explicable.
+Across software engineering, clinical documentation, and clinical decision support, pre-deployment expectations---whether from user forecasts, vendor claims, or developer-reported metrics---systematically overestimate realised benefits in deployment settings.
+The drivers are not mysterious: workflow integration friction, verification burden, measurement construct mismatches, and treatment effect heterogeneity are observable, predictable, and in principle addressable.
 
-`Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
+Closing this gap requires moving from *ad hoc* expectation-setting to structured, quantified planning that accounts for real-world integration costs, models heterogeneity across user populations, and links outcome measurement directly to initial benefit projections.
+The alternative---continued reliance on benchmark results, marketing claims, and intuitive forecasts---will perpetuate a cycle of over-promise and under-delivery that erodes trust in systems that, when properly targeted and governed, can deliver genuine value.
 
-`Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
-
-## Links
-
-Bare URL link: <https://manubot.org>
-
-[Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah](https://manubot.org)
-
-[Link with text](https://manubot.org)
-
-[Link with hover text](https://manubot.org "Manubot Homepage")
-
-[Link by reference][manubot homepage]
-
-[Manubot Homepage]: https://manubot.org
-
-## Citations
-
-Citation by DOI [@doi:10.7554/eLife.32822].
-
-Citation by PubMed Central ID [@pmc:PMC6103790].
-
-Citation by PubMed ID [@pubmed:30718888].
-
-Citation by Wikidata ID [@wikidata:Q56458321].
-
-Citation by ISBN [@isbn:9780262517638].
-
-Citation by URL [@{https://greenelab.github.io/meta-review/}].
-
-Citation by alias [@deep-review].
-
-Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
-Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
-
-Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
-
-[@deep-review]: doi:10.1098/rsif.2017.0387
-
-## Referencing figures, tables, equations
-
-Figure @fig:square-image
-
-Figure @fig:wide-image
-
-Figure @fig:tall-image
-
-Figure @fig:vector-image
-
-Table @tbl:bowling-scores
-
-Equation @eq:regular-equation
-
-Equation @eq:long-equation
-
-## Quotes and code
-
-> Quoted text
-
-> Quoted block of text
->
-> Two roads diverged in a wood, and I—  
-> I took the one less traveled by,  
-> And that has made all the difference.
-
-Code `in the middle` of normal text, aka `inline code`.
-
-Code block with Python syntax highlighting:
-
-```python
-from manubot.cite.doi import expand_short_doi
-
-def test_expand_short_doi():
-    doi = expand_short_doi("10/c3bp")
-    # a string too long to fit within page:
-    assert doi == "10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah"
-```
-
-Code block with no syntax highlighting:
-
-```
-Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript
-```
-
-## Figures
-
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
-
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
-
-![
-**A tall image with a specified height.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
-
-![
-**A vector `.svg` image loaded from GitHub.**
-The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-Note that if you want to export to Word (`.docx`), you need to download the image and reference it locally (e.g. `content/images/vector.svg`) instead of using a URL.
-](https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
-
-## Tables
-
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
-
-Table: A table with a top caption and specified relative column widths.
-{#tbl:bowling-scores}
-
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
-
-Table: A table too wide to fit within page.
-{#tbl:constant-digits}
-
-|          | **Colors** <!-- $colspan="2" --> |                      |
-|:--------:|:--------------------------------:|:--------------------:|
-| **Size** | **Text Color**                   | **Background Color** |
-| big      | blue                             | orange               |
-| small    | black                            | white                |
-
-Table: A table with merged cells using the `attributes` plugin.
-{#tbl: merged-cells}
-
-## Equations
-
-A LaTeX equation:
-
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
-
-An equation too long to fit within page:
-
-$$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
-
-## Special
-
-<i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
-_Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
-
-[Link styled as a button](https://manubot.org "Manubot Homepage"){.button}
-
-Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
-
-::: {#some_id_1 .some_class style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true"}
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-:::
-
-Adding arbitrary HTML attributes to an element with the Manubot `attributes` plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
-
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" -->
-
-Available background colors for text, images, code, banners, etc:  
-
-`white`{.white}
-`lightgrey`{.lightgrey}
-`grey`{.grey}
-`darkgrey`{.darkgrey}
-`black`{.black}
-`lightred`{.lightred}
-`lightyellow`{.lightyellow}
-`lightgreen`{.lightgreen}
-`lightblue`{.lightblue}
-`lightpurple`{.lightpurple}
-`red`{.red}
-`orange`{.orange}
-`yellow`{.yellow}
-`green`{.green}
-`blue`{.blue}
-`purple`{.purple}
-
-Using the [Font Awesome](https://fontawesome.com/) icon set:
-
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-
-<i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i>
-
-[
-<i class="fas fa-scroll fa-lg"></i> **Light Grey Banner**<br>
-useful for *general information* - [manubot.org](https://manubot.org/)
-]{.banner .lightgrey}
-
-[
-<i class="fas fa-info-circle fa-lg"></i> **Blue Banner**<br>
-useful for *important information* - [manubot.org](https://manubot.org/)
-]{.banner .lightblue}
-
-[
-<i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
-useful for *warnings* - [manubot.org](https://manubot.org/)
-]{.banner .lightred}
 
 
 ## References {.page_break_before}
