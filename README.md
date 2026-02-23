@@ -1,5 +1,7 @@
 # Automated scholarly manuscripts on GitHub
 
+Read by following the badge links:
+
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://slolab.github.io/agentic-expectation-realisation-gap/)
