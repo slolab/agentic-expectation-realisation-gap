@@ -88,24 +88,5 @@
       "family": "Shahzad"
     }
   ]
-},
-{
-  "id": "doi:10.1234/aac",
-  "type": "article-journal",
-  "title": "The Agentic Automation Canvas: a structured framework for agentic AI project design",
-  "author": [
-    {
-      "given": "Sebastian",
-      "family": "Lobentanzer"
-    }
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        2025
-      ]
-    ]
-  },
-  "note": "Manuscript in preparation"
 }
 ]
