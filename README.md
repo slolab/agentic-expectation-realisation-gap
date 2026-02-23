@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/slolab/agentic-expectation-realisation-gap/tree/gh-pages) branch hosts the contents of this directory at <https://slolab.github.io/agentic-expectation-realisation-gap/>.
-The permalink for this webpage version is <https://slolab.github.io/agentic-expectation-realisation-gap/v/8acbf35d30251f5e5a86615edae1d06ee8cefc93/>.
+The permalink for this webpage version is <https://slolab.github.io/agentic-expectation-realisation-gap/v/7e6077b7f0ee879f62eccf4f916bfd0049ccd1c8/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://slolab.github.io/agentic-expectation-realisation-gap/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`8acbf35d30251f5e5a86615edae1d06ee8cefc93`](https://github.com/slolab/agentic-expectation-realisation-gap/commit/8acbf35d30251f5e5a86615edae1d06ee8cefc93).
+[`7e6077b7f0ee879f62eccf4f916bfd0049ccd1c8`](https://github.com/slolab/agentic-expectation-realisation-gap/commit/7e6077b7f0ee879f62eccf4f916bfd0049ccd1c8).
