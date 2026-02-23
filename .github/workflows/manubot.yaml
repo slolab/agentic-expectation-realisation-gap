@@ -1,9 +1,5 @@
 name: Manubot
 on:
-  push:
-    branches:
-  pull_request:
-    branches:
   # NOTE: scheduled workflows are supported as of 2022-09-27 (example commented below)
   # https://github.com/community/community/discussions/12269#discussioncomment-3747667
   # scheduled:
