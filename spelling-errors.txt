@@ -1,5 +1,5 @@
 AAC
-Agentic
+agentic
 AUROC
 ChatGPT
 DAX
