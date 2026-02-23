@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Quantifying the Expectation–Realisation Gap for Agentic AI Systems
 
 Read by following the badge links:
 
@@ -8,12 +8,15 @@ Read by following the badge links:
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/slolab/agentic-expectation-realisation-gap/workflows/Manubot/badge.svg)](https://github.com/slolab/agentic-expectation-realisation-gap/actions)
 
-## Manuscript description
+## Abstract
 
-<!-- usage note: edit this section. -->
-
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+Agentic AI systems are deployed with expectations of substantial productivity gains, yet rigorous empirical evidence reveals systematic discrepancies between pre-deployment expectations and post-deployment outcomes.
+We review controlled trials and independent validations across software engineering, clinical documentation, and clinical decision support to quantify this expectation--realisation gap.
+In software development, experienced developers expected a 24% speedup from AI tools but were slowed by 19%---a 43 percentage-point calibration error.
+In clinical documentation, vendor claims of multi-minute time savings contrast with measured reductions of less than one minute per note, and one widely deployed tool showed no statistically significant effect.
+In clinical decision support, externally validated performance falls substantially below developer-reported metrics.
+These shortfalls are driven by workflow integration friction, verification burden, measurement construct mismatches, and systematic heterogeneity in treatment effects.
+The evidence motivates structured planning frameworks that require explicit, quantified benefit expectations with human oversight costs factored in.
 
 ## Manubot
 
