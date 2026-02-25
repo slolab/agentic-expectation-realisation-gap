@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Sebastian Lobentanzer" />
-  <meta name="dcterms.date" content="2026-02-23" />
+  <meta name="dcterms.date" content="2026-02-25" />
   <meta name="keywords" content="agentic systems, generative AI, automation, expectation management, evaluation, governance" />
   <title>Quantifying the Expectation–Realisation Gap for Agentic AI Systems</title>
   <style>
@@ -50,11 +50,11 @@
   <meta name="citation_title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
   <meta property="og:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
   <meta property="twitter:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
-  <meta name="dc.date" content="2026-02-23" />
-  <meta name="citation_publication_date" content="2026-02-23" />
-  <meta property="article:published_time" content="2026-02-23" />
-  <meta name="dc.modified" content="2026-02-23T19:01:58+00:00" />
-  <meta property="article:modified_time" content="2026-02-23T19:01:58+00:00" />
+  <meta name="dc.date" content="2026-02-25" />
+  <meta name="citation_publication_date" content="2026-02-25" />
+  <meta property="article:published_time" content="2026-02-25" />
+  <meta name="dc.modified" content="2026-02-25T14:29:41+00:00" />
+  <meta property="article:modified_time" content="2026-02-25T14:29:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,10 +90,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/">permalink</a>)
+(<a href="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/slolab/agentic-expectation-realisation-gap/tree/93c2d6d85011e1749810c2a39e1f1608e2aec4e0">slolab/agentic-expectation-realisation-gap@93c2d6d</a>
-on February 23, 2026.
+from <a href="https://github.com/slolab/agentic-expectation-realisation-gap/tree/990c846096f19fee6d0b9a80fb85bb9ce178eeaa">slolab/agentic-expectation-realisation-gap@990c846</a>
+on February 25, 2026.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -119,14 +119,14 @@ We review controlled trials and independent validations across software engineer
 In software development, experienced developers expected a 24% speedup from AI tools but were slowed by 19%—a 43 percentage-point calibration error.
 In clinical documentation, vendor claims of multi-minute time savings contrast with measured reductions of less than one minute per note, and one widely deployed tool showed no statistically significant effect.
 In clinical decision support, externally validated performance falls substantially below developer-reported metrics.
-These shortfalls are driven by workflow integration friction, verification burden, measurement construct mismatches, and systematic heterogeneity in treatment effects.
+These shortfalls are driven by workflow integration friction, verification burden, measurement construct mismatches, and systematic variation in who benefits and who does not.
 The evidence motivates structured planning frameworks that require explicit, quantified benefit expectations with human oversight costs factored in.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <p>Agentic AI systems—autonomous software agents that plan, reason, and execute multi-step tasks with limited human oversight—are being adopted across software engineering, clinical medicine, and customer operations with the expectation of transformative productivity gains.
 Vendor announcements routinely promise multi-minute time savings per encounter, double-digit percentage speedups, or near-expert-level decision accuracy.
 Procurement and investment decisions follow these expectations, committing substantial resources before deployment-grade evidence is available.</p>
-<p>Yet a growing body of controlled trials and independent external validations reveals that realised outcomes frequently fall short of pre-deployment expectations—sometimes dramatically so.
-This discrepancy, which we term the <em>expectation–realisation gap</em>, is not simply a matter of immature technology.
+<p>Yet, as we explore below, a growing body of controlled trials and independent external validations reveals that realised outcomes frequently fall short of pre-deployment expectations.
+We term this discrepancy the <em>expectation–realisation gap</em>.
 It reflects systematic patterns in how agentic systems interact with human workflows, how performance is measured, and how benefits are distributed across user populations.</p>
 <p>Understanding and quantifying this gap is a prerequisite for responsible deployment.
 Without structured, quantified expectations that account for real-world integration costs, organisations risk over-investing in systems that deliver marginal gains at best or impose net costs at worst.
@@ -136,15 +136,16 @@ This review synthesises the strongest available empirical evidence for the expec
 <p>The sharpest illustration of the expectation–realisation gap comes from a randomised controlled trial conducted by METR (Model Evaluation &amp; Threat Research) on 16 experienced open-source developers working in their own mature repositories across 246 real tasks <span class="citation" data-cites="Pn458EjC">[<a href="#ref-Pn458EjC" role="doc-biblioref">1</a>]</span>.
 Before each task, participants forecast that AI assistance would reduce their completion time by 24%.
 The measured outcome was a 19% <em>increase</em> in completion time—a 43 percentage-point calibration error on the time-change scale, and a complete reversal in direction.
-Tasks took approximately 56% longer than developers expected (realised completion time factor 1.19 versus expected 0.76).
-Intriguingly, AI-assisted developers also estimated 20% reduction in completion time <em>after</em> they had performed the task; the opposite of what had happened.</p>
-<p>This result contrasts instructively with a pre-release controlled trial of GitHub Copilot on developers recruited via Upwork, where treated participants completed a standardised, self-contained programming task 55.8% faster (95% CI 21–89%) <span class="citation" data-cites="Cq5OoRAK">[<a href="#ref-Cq5OoRAK" role="doc-biblioref">2</a>]</span>.
+Tasks took approximately 56% longer than developers expected.
+Intriguingly, AI-assisted developers also estimated 20% reduction in completion time <em>after</em> they had performed the task; the opposite of what had happened.
+Economics experts (N=34) and machine learning experts (N=54) overestimated the expected speedup even more dramatically, with 39% and 38%, respectively.</p>
+<p>This result contrasts instructively with a controlled trial of GitHub Copilot on developers recruited via Upwork, where <a href="#glossary-treatment">treated participants</a> completed a standardised, self-contained programming task 56% faster (95% CI 21–89%) <span class="citation" data-cites="Cq5OoRAK">[<a href="#ref-Cq5OoRAK" role="doc-biblioref">2</a>]</span>.
 In that experiment, participants’ self-estimated productivity gains averaged approximately 35%, meaning they <em>underestimated</em> the realised speedup.
 Of note, the task here was the same for all participants; the development of an HTTP server in JavaScript.
 The divergence between these two trials can be explained by task complexity.
 On constrained, well-defined tasks, AI coding tools can exceed expectations, particularly for less experienced professionals; the study notes that the benefit was greater for less experienced developers <span class="citation" data-cites="Cq5OoRAK">[<a href="#ref-Cq5OoRAK" role="doc-biblioref">2</a>]</span>.
 In contrast, in high-context, real-world repositories, the same class of tools can impose net costs that even senior developers fail to anticipate.
-These findings are the first instance of heterogeneous treatment effects of agentic AI (see the <a href="#heterogeneity">section on heterogeneity</a>).</p>
+These findings are the first instance of <a href="#glossary-hte">heterogeneous treatment effects</a> of agentic AI (see the <a href="#heterogeneity">section on heterogeneity</a>).</p>
 <p>Field experiments at Microsoft and Accenture provide complementary information: developers assigned to Copilot completed 12.9–21.8% more pull requests per week at Microsoft and 7.5–8.7% more at Accenture, though the authors emphasise imprecision and threats to inference including low compliance and organisational confounds <span class="citation" data-cites="483IElSt">[<a href="#ref-483IElSt" role="doc-biblioref">3</a>]</span>.
 However, these throughput metrics do not account for code quality: independent security analyses find that 32.8% of Python and 24.5% of JavaScript snippets generated by Copilot are flagged with security issues <span class="citation" data-cites="150KTEctI">[<a href="#ref-150KTEctI" role="doc-biblioref">4</a>]</span>, and Copilot can replicate known-vulnerable code patterns at rates around 33%, although it improves on unassisted human developers <span class="citation" data-cites="145l9IGXx">[<a href="#ref-145l9IGXx" role="doc-biblioref">5</a>]</span>.
 Productivity gains that increase time for human oversight (such as review, remediation, and incident risk) are not net gains.</p>
@@ -154,26 +155,27 @@ Vendor procurement narratives frequently frame benefits in terms of “minutes s
 <p>Evidence from controlled trials partly contradicts these claims.
 A randomised controlled trial at UCLA across 238 physicians in 14 specialties compared two commercial ambient scribe tools (DAX and Nabla) against usual care, with approximately 24 000 encounters per arm <span class="citation" data-cites="NqSZW3sy">[<a href="#ref-NqSZW3sy" role="doc-biblioref">7</a>]</span>.
 Nabla reduced time-in-note by 9.5% relative to control (95% CI −17.2 to −1.8; P=0.02), while DAX showed no statistically significant effect (−1.7%, 95% CI −9.4 to +5.9; P=0.66).
-Partial adoption was a key contextual factor: the tools were used in only approximately 30–34% of visits, and roughly 15% of treatment-group physicians never used their assigned scribe at all.
-Clinicians did not strongly endorse that generated notes were “at least as good as my own”; and “occasional” clinically significant inaccuracies potentially led to a significant loss of time due to oversight activities.</p>
-<p>A peer-matched cohort study of DAX in an integrated delivery system (99 providers, 12 specialties) found documentation EHR time fell from 5.3 to 4.54 minutes per patient—a saving of approximately 46 seconds—while after-hours EHR time <em>worsened</em> significantly, suggesting time-shifting rather than uniform savings <span class="citation" data-cites="1DN3EHf6V">[<a href="#ref-1DN3EHf6V" role="doc-biblioref">8</a>]</span>.
-A pre/post study of the Abridge ambient listening tool across 332 physicians confirmed sub-minute savings: mean time in notes per note fell from 5.11 to 4.16 minutes (difference 57 seconds, 95% CI 29–85) <span class="citation" data-cites="yIOwGu7o">[<a href="#ref-yIOwGu7o" role="doc-biblioref">9</a>]</span>.
+Partial adoption was a key contextual factor: the tools were used in only approximately 30–34% of visits, and roughly 15% of <a href="#glossary-treatment">treatment-group</a> physicians never used their assigned scribe at all.
+Clinicians did not strongly endorse that generated notes were “at least as good as my own”; and “occasional” clinically significant inaccuracies potentially led to a significant loss of time due to oversight activities <span class="citation" data-cites="NqSZW3sy">[<a href="#ref-NqSZW3sy" role="doc-biblioref">7</a>]</span>.</p>
+<p>A peer-matched cohort study of DAX in an integrated delivery system (99 providers, 12 specialties) found documentation EHR time fell from 5.3 to 4.5 minutes per patient—a saving of approximately 46 seconds—while after-hours EHR time <em>worsened</em> significantly, suggesting time-shifting rather than uniform savings <span class="citation" data-cites="1DN3EHf6V">[<a href="#ref-1DN3EHf6V" role="doc-biblioref">8</a>]</span>.
+A pre/post study of the Abridge ambient listening tool across 332 physicians confirmed sub-minute savings: mean time in notes per note fell from 5.1 to 4.2 minutes (difference 57 seconds, 95% CI 29–85) <span class="citation" data-cites="yIOwGu7o">[<a href="#ref-yIOwGu7o" role="doc-biblioref">9</a>]</span>.
 In this study, adoption increased from 15% to 50% of physicians in the study span of 8 weeks; however, the total number of notes created by the scribe only increased from 5% to 15% at the end of the study period.</p>
 <p>The perception–reality mismatch that was found in <a href="#software-engineering-copilots">software engineering studies</a> was replicated in a study of 252 physicians: 86.5% <em>perceived</em> that their documentation time had decreased, yet there was no overall association between perceived reductions and objectively measured time changes (OR 0.975, P=0.144) <span class="citation" data-cites="F6DyOcdA">[<a href="#ref-F6DyOcdA" role="doc-biblioref">10</a>]</span>.
 The objective effect was modest: each 10 percentage-point increase in AI scribe usage was associated with approximately 30 seconds lower documentation time per scheduled hour (P&lt;0.001).</p>
 <h3 id="clinical-decision-support">Clinical decision support</h3>
-<p>Independent external validation of proprietary clinical AI models provides some of the starkest expectation–realisation gaps.
+<p>Where the preceding sections documented gaps in <em>time-savings</em> expectations, clinical decision support reveals equally stark expectation–realisation gaps in <em>accuracy and quality</em>—the benefit dimensions most directly linked to patient outcomes.
 The Epic Sepsis Model, widely implemented across US hospitals, was externally validated in a large academic health system (38 455 hospitalisations) with an area under the receiver operating characteristic curve (AUROC) of 0.63 (95% CI 0.62–0.64), while Epic previously reported AUROC values of 0.76–0.83 <span class="citation" data-cites="5lzy4hhj">[<a href="#ref-5lzy4hhj" role="doc-biblioref">11</a>]</span>.
 At an operational alert threshold, the model achieved only 33% sensitivity (missing two thirds of septic patients), raising questions about clinical utility at scale.</p>
 <p>In oncology decision support, IBM publicised concordance rates as high as 96% for Watson for Oncology in lung cancer cases relative to a multidisciplinary tumour board <span class="citation" data-cites="WKfyebuS">[<a href="#ref-WKfyebuS" role="doc-biblioref">12</a>]</span>.
 A subsequent peer-reviewed retrospective study in Korea found strict concordance of 48.9% for colon cancer, with “acceptable” concordance of 65.8% and strong heterogeneity by patient age (concordance dropping to approximately 20% among patients aged 70 and older) <span class="citation" data-cites="wYQ84UyT">[<a href="#ref-wYQ84UyT" role="doc-biblioref">13</a>]</span>.
-This discrepancy reflected both definition dependence—concordance rose substantially when “for consideration” was treated as concordant—and local constraint mismatches in guidelines, reimbursement, and patient demographics that prevent cross-site transferability.</p>
+This discrepancy reflected both definition dependence—concordance rose substantially when “for consideration” was treated as concordant—and local constraint mismatches in guidelines, reimbursement, and patient demographics that prevent cross-site transferability.
+In both cases, the expectation–realisation gap follows the same pattern as for time savings: internally reported metrics set expectations that external, deployment-grade evaluation cannot reproduce.</p>
 <h2 id="why-expectations-overshoot">Why expectations overshoot</h2>
 <p>The empirical evidence points to three recurrent mechanistic drivers that explain why expectations systematically exceed realised outcomes, consistent with planning fallacies widely reported in the psychology literature <span class="citation" data-cites="k7m9hF2i THITmx4H">[<a href="#ref-k7m9hF2i" role="doc-biblioref">14</a>,<a href="#ref-THITmx4H" role="doc-biblioref">15</a>]</span>.</p>
 <p><strong>Workflow integration friction and partial adoption.</strong>
 Agentic AI systems do not operate in isolation; they must integrate into existing workflows, tools, and team practices.
 Clinical scribe evaluations repeatedly show partial adoption—tools used in a minority of encounters, with non-trivial drop-off over time <span class="citation" data-cites="NqSZW3sy 1DN3EHf6V">[<a href="#ref-NqSZW3sy" role="doc-biblioref">7</a>,<a href="#ref-1DN3EHf6V" role="doc-biblioref">8</a>]</span>.
-Even when per-use effects are real, intention-to-treat estimates are attenuated by low compliance, and the practical benefit to an organisation depends on the adoption rate actually achieved, not the rate assumed during procurement.
+Even when per-use effects are real, <a href="#glossary-itt">intention-to-treat</a> estimates are attenuated by low compliance, and the practical benefit to an organisation depends on the adoption rate actually achieved, not the rate assumed during procurement.
 This is not always a simple, temporary onboarding issue; the UCLA RCT’s 30–34% utilisation rate was observed over the full study period <span class="citation" data-cites="NqSZW3sy">[<a href="#ref-NqSZW3sy" role="doc-biblioref">7</a>]</span>.</p>
 <p><strong>Verification and review burden.</strong>
 Agentic systems generate outputs that require human verification, and this verification cost is rarely accounted for in pre-deployment projections.
@@ -185,27 +187,32 @@ Pre-deployment expectations are often framed in metrics that do not correspond t
 Vendor claims of “minutes saved per encounter” refer to broader workflow impacts, while trial outcomes measure “time-in-note”—one slice of documentation burden <span class="citation" data-cites="NqSZW3sy">[<a href="#ref-NqSZW3sy" role="doc-biblioref">7</a>]</span>.
 Developer-reported model performance (AUROC 0.76–0.83 for Epic’s sepsis model) reflects evaluation choices that can systematically inflate apparent performance relative to development goals <span class="citation" data-cites="5lzy4hhj">[<a href="#ref-5lzy4hhj" role="doc-biblioref">11</a>]</span>.
 The gap between lab-task performance and field performance in software copilots is a measurement construct problem at its core: bounded tasks estimate <em>tool capability under low-context load</em>, while field trials estimate <em>net productivity under realistic verification and integration costs</em> <span class="citation" data-cites="Pn458EjC Cq5OoRAK">[<a href="#ref-Pn458EjC" role="doc-biblioref">1</a>,<a href="#ref-Cq5OoRAK" role="doc-biblioref">2</a>]</span>.</p>
+<p>These three drivers interact and compound over time, fueling inflated expectations.
+Workflow integration depends on existing competence: experienced professionals can restructure their work around agentic tools while less experienced users lack the mental models to do so effectively.
+Verification burden scales inversely with expertise: a senior developer can spot a flawed code suggestion quickly, whereas a junior developer may accept it uncritically or spend disproportionate time reviewing it.
+And measurement construct mismatches extend to the time horizon of measurement itself: short-term productivity metrics cannot capture costs that materialise only over longer periods.
+For instance, the level of knowledge in the workforce is a slowly developing phenomenon relative to the speed at which agentic technologies are introduced.
+A randomised controlled trial in higher education found that students who used ChatGPT as a study aid scored significantly lower on a surprise retention test 45 days later (57.5% vs 68.5%; Cohen’s d = 0.68) <span class="citation" data-cites="BtLB1KPc">[<a href="#ref-BtLB1KPc" role="doc-biblioref">16</a>]</span>, suggesting that cognitive offloading can trade immediate task completion for degraded durable learning.
+A parallel study in software engineering found that AI use impaired the users’ conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average <span class="citation" data-cites="7usbewRl">[<a href="#ref-7usbewRl" role="doc-biblioref">17</a>]</span>.
+Ignoring these interactions when planning the deployment of an agentic system will systematically overestimate its net benefits.</p>
 <h2 id="heterogeneity">Heterogeneity as the default</h2>
-<p>Across every domain reviewed, treatment effects are not uniform.
+<p>Across every domain reviewed, <a href="#glossary-treatment-effect">treatment effects</a> are not uniform.
 They are systematically moderated by baseline user efficiency, task complexity, and local context.
 This implies that development of systems useful in practice requires careful planning that respects treatment heterogeneity.</p>
 <p>In clinical documentation, objective time savings from AI scribes concentrate among physicians with higher baseline documentation inefficiency; efficient documenters derive minimal benefit <span class="citation" data-cites="F6DyOcdA">[<a href="#ref-F6DyOcdA" role="doc-biblioref">10</a>]</span>.
-In customer support, a field study of 5,172 agents found an average 15% productivity increase from a generative AI assistant, but gains were heavily concentrated among less experienced and lower-skilled workers, while the most experienced agents saw smaller gains and occasional quality declines <span class="citation" data-cites="AcXO8k1A">[<a href="#ref-AcXO8k1A" role="doc-biblioref">16</a>]</span>.
-This heterogeneity is not only observed inter-individually but also at the intra-individual level; given a single agent, gains from AI adoption are larger for relatively rare tasks, where human users have less baseline training and experience <span class="citation" data-cites="AcXO8k1A">[<a href="#ref-AcXO8k1A" role="doc-biblioref">16</a>]</span>.
+In customer support, a field study of 5,172 agents found an average 15% productivity increase from a generative AI assistant, but gains were heavily concentrated among less experienced and lower-skilled workers, while the most experienced agents saw smaller gains and occasional quality declines <span class="citation" data-cites="AcXO8k1A">[<a href="#ref-AcXO8k1A" role="doc-biblioref">18</a>]</span>.
+This heterogeneity is not only observed inter-individually but also at the intra-individual level; given a single agent, gains from AI adoption are larger for relatively rare tasks, where human users have less baseline training and experience <span class="citation" data-cites="AcXO8k1A">[<a href="#ref-AcXO8k1A" role="doc-biblioref">18</a>]</span>.
 In software engineering, the METR trial specifically selected experienced developers working in familiar repositories—precisely the population most likely to have optimised their workflows already—and this is the population that was slowed <span class="citation" data-cites="Pn458EjC">[<a href="#ref-Pn458EjC" role="doc-biblioref">1</a>]</span>.</p>
-<p><strong>In summary, there is currently no stable, globally positive treatment effect for agentic AI.</strong>
+<p><strong>In summary, there is currently no stable, globally positive <a href="#glossary-treatment-effect">treatment effect</a> for agentic AI.</strong>
 Average headline figures (whether from vendors, lab trials, or even well-designed field studies) will systematically misrepresent the benefit realised by any specific user, team, or organisation.
 Planning that relies on average expected gains without modelling who benefits and who does not will over-invest in low-yield deployments and under-invest in targeted high-yield ones.</p>
-<p>Adjacent experimental evidence reinforces this concern on a longer time horizon.
-A randomised controlled trial in higher education found that students who used ChatGPT as a study aid scored significantly lower on a surprise retention test 45 days later (57.5% vs 68.5%; Cohen’s d = 0.68) <span class="citation" data-cites="BtLB1KPc">[<a href="#ref-BtLB1KPc" role="doc-biblioref">17</a>]</span>, suggesting that cognitive offloading can trade immediate task completion for degraded durable learning—a dimension of “benefit” that short-term productivity metrics entirely miss.
-A parallel study in software engineering found that AI use impaired conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average <span class="citation" data-cites="7usbewRl">[<a href="#ref-7usbewRl" role="doc-biblioref">18</a>]</span>.</p>
 <h2 id="implications-for-structured-planning">Implications for structured planning</h2>
 <p>The evidence reviewed here converges on a clear conclusion: pre-deployment expectations for agentic AI systems are poorly calibrated, and the resulting <em>expectation–realisation gap</em> is large enough to undermine investment decisions, deployment strategies, and trust.
 This is not an argument against agentic AI—the evidence also shows that real gains exist in specific contexts and for specific user populations.
 It is an argument for <em>structured planning that takes the gap seriously</em>.</p>
 <p>Several design principles follow directly from the empirical patterns.
-First, <strong>benefit expectations must be explicit and quantified</strong>, not framed as vague promises of efficiency.
-The contrast between “5 minutes saved per encounter” marketing and sub-minute measured reductions illustrates what happens when expectations lack precision <span class="citation" data-cites="NqSZW3sy">[<a href="#ref-NqSZW3sy" role="doc-biblioref">7</a>]</span>.
+First, <strong>benefit expectations must be explicit and quantified across all relevant dimensions</strong>, rather than framed as vague promises of efficiency.
+The contrast between “5 minutes saved per encounter” marketing and sub-minute measured reductions illustrates what happens when time-based expectations lack precision <span class="citation" data-cites="NqSZW3sy">[<a href="#ref-NqSZW3sy" role="doc-biblioref">7</a>]</span>; the gap between developer-reported AUROC (0.76–0.83) and externally validated AUROC (0.63) for the Epic Sepsis Model shows the same pattern for accuracy metrics <span class="citation" data-cites="5lzy4hhj">[<a href="#ref-5lzy4hhj" role="doc-biblioref">11</a>]</span>.
 Second, <strong>expectations should capture dual perspectives</strong>—what users expect to gain and what developers assess as technically feasible.
 Miscalibration occurs on both sides: developers overshoot in internal validation; users overshoot in self-forecasts.
 The estimate–reality mismatch in the METR study, which persisted even after implementation, illustrates the cognitive biases at play <span class="citation" data-cites="Pn458EjC">[<a href="#ref-Pn458EjC" role="doc-biblioref">1</a>]</span>.
@@ -214,7 +221,9 @@ Every controlled trial reviewed here shows that verification, review, and cleanu
 Fourth, <strong>outcome metrics must link back to initial expectations</strong> in the same units and at the same level of granularity, enabling direct comparison rather than post hoc rationalisation.
 Ideally, plans are formalised early, versioned, and archived, in order to facilitate these later comparisons.
 Fifth, <strong>heterogeneity should be modelled explicitly</strong> by specifying which user populations and task types are expected to benefit, rather than assuming uniform effects.</p>
-<p>These principles are implemented in the <a href="https://aac.slolab.ai">Agentic Automation Canvas (AAC)</a>, a structured framework for designing, governing, and documenting agentic automation projects that captures user expectations as quantified benefit metrics with baseline values, confidence levels from both user and developer perspectives, and explicit accounting for human oversight <span class="citation" data-cites="kcW71VZV">[<a href="#ref-kcW71VZV" role="doc-biblioref">19</a>]</span>.
+<p>One way to operationalise these principles is the <a href="https://aac.slolab.ai">Agentic Automation Canvas (AAC)</a>, a structured framework for designing, governing, and documenting agentic automation projects <span class="citation" data-cites="kcW71VZV">[<a href="#ref-kcW71VZV" role="doc-biblioref">19</a>]</span>.
+The canvas captures user expectations as quantified benefit metrics across five dimensions—time, quality, risk, enablement, and cost—with baseline values, confidence levels from both user and developer perspectives, and explicit accounting for human oversight.
+This multi-dimensional structure reflects the evidence reviewed here: the expectation–realisation gap manifests not only in time savings (as in software engineering and clinical documentation) but equally in accuracy and quality metrics (as in clinical decision support), and planning frameworks must accommodate all of these.
 The canvas formalises the bidirectional contract between stakeholders that the evidence reviewed here shows is necessary: without structured mechanisms for surfacing and testing expectations, the gap between aspiration and reality will persist.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>The expectation–realisation gap in agentic AI systems is empirically documented, directionally consistent, and mechanistically explainable.
@@ -224,6 +233,31 @@ The drivers are complex, but not mysterious: workflow integration friction, veri
 It also requires a mature interdisciplinary approach; mismatch from psychological bias cannot be countered by computer science methodology, and building better AI models will not solve all socio-technical problems in deployment and adoption.
 The alternative to closing the gap is to continue relying on artificial benchmark results, marketing claims, and intuitive forecasts.
 In all likelihood, this will perpetuate a cycle of over-promise and under-delivery that erodes trust in systems that, when properly targeted and governed, can deliver genuine value.</p>
+<h2 class="page_break_before" id="glossary-of-experimental-terms">Glossary of experimental terms</h2>
+<p>This review draws on evidence from controlled experiments across multiple domains.
+The following terms, standard in medicine, economics, and the social sciences, are used throughout.</p>
+<h3 id="glossary-rct">Randomised controlled trial (RCT)</h3>
+<p>An experimental design in which participants are randomly assigned to either a <em>treatment</em> group or a <em>control</em> group.
+Random assignment ensures that observed differences in outcomes can be attributed to the intervention rather than to pre-existing differences between groups.
+In this review, RCTs include trials of AI coding assistants, ambient clinical scribes, and clinical decision-support models.</p>
+<h3 id="glossary-treatment">Treatment and intervention</h3>
+<p>The <em>treatment</em> (or <em>intervention</em>) is the condition being evaluated in an experiment—for example, giving developers access to an AI coding assistant or equipping physicians with an ambient scribe.
+Participants who receive the treatment are referred to as <em>treated participants</em> or the <em>treatment group</em>.</p>
+<h3 id="glossary-control">Control</h3>
+<p>The <em>control</em> condition is the comparison group that does not receive the intervention.
+Control participants continue with their usual workflow, providing a baseline against which the treatment’s effect is measured.</p>
+<h3 id="glossary-treatment-effect">Treatment effect</h3>
+<p>The <em>treatment effect</em> is the measured difference in outcomes between the treatment group and the control group.
+For example, if treated developers complete tasks 20% faster than control developers, the treatment effect is a 20% reduction in completion time.
+A treatment effect can be positive (the intervention helps), negative (it hurts), or null (no detectable difference).</p>
+<h3 id="glossary-itt">Intention-to-treat analysis</h3>
+<p><em>Intention-to-treat</em> (ITT) analysis includes all participants as originally assigned—whether or not they actually used the tool.
+This preserves the validity of randomisation and reflects real-world conditions, where not everyone who is offered a tool adopts it.
+ITT estimates are typically smaller than per-use estimates because non-adopters dilute the measured effect.</p>
+<h3 id="glossary-hte">Heterogeneous treatment effects</h3>
+<p><em>Heterogeneous treatment effects</em> means that the size (or direction) of the treatment effect varies across subgroups.
+For instance, less experienced developers may benefit substantially from AI assistance while expert developers see no gain or a net slowdown.
+Recognising heterogeneity is critical for deployment planning: an average treatment effect can mask the fact that some users benefit greatly while others are harmed.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
@@ -272,14 +306,14 @@ In all likelihood, this will perpetuate a cycle of over-promise and under-delive
 <div id="ref-THITmx4H" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>The Planning Fallacy</strong> <div class="csl-block">Roger Buehler, Dale Griffin, Johanna Peetz</div> <em>Advances in Experimental Social Psychology</em> (2010) <a href="https://doi.org/bkzd2w">https://doi.org/bkzd2w</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/s0065-2601(10)43001-4">10.1016/s0065-2601(10)43001-4</a></div></div>
 </div>
-<div id="ref-AcXO8k1A" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Generative AI at Work</strong> <div class="csl-block">Erik Brynjolfsson, Danielle Li, Lindsey Raymond</div> <em>arXiv</em> (2023) <a href="https://doi.org/hbqdb6">https://doi.org/hbqdb6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2304.11771">10.48550/arxiv.2304.11771</a></div></div>
-</div>
 <div id="ref-BtLB1KPc" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>The hidden cost of AI: ChatGPT use impairs long-term knowledge retention in university students</strong> <div class="csl-block">Muhammad Farrukh Shahzad</div> <em>International Journal of Educational Research Open</em> (2025) <a href="https://www.sciencedirect.com/science/article/pii/S2590291125010186">https://www.sciencedirect.com/science/article/pii/S2590291125010186</a></div>
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>The hidden cost of AI: ChatGPT use impairs long-term knowledge retention in university students</strong> <div class="csl-block">Muhammad Farrukh Shahzad</div> <em>International Journal of Educational Research Open</em> (2025) <a href="https://www.sciencedirect.com/science/article/pii/S2590291125010186">https://www.sciencedirect.com/science/article/pii/S2590291125010186</a></div>
 </div>
 <div id="ref-7usbewRl" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>How AI Impacts Skill Formation</strong> <div class="csl-block">Judy Hanwen Shen, Alex Tamkin</div> <em>arXiv</em> (2026) <a href="https://doi.org/hbqdbj">https://doi.org/hbqdbj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2601.20245">10.48550/arxiv.2601.20245</a></div></div>
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>How AI Impacts Skill Formation</strong> <div class="csl-block">Judy Hanwen Shen, Alex Tamkin</div> <em>arXiv</em> (2026) <a href="https://doi.org/hbqdbj">https://doi.org/hbqdbj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2601.20245">10.48550/arxiv.2601.20245</a></div></div>
+</div>
+<div id="ref-AcXO8k1A" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Generative AI at Work</strong> <div class="csl-block">Erik Brynjolfsson, Danielle Li, Lindsey Raymond</div> <em>arXiv</em> (2023) <a href="https://doi.org/hbqdb6">https://doi.org/hbqdb6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2304.11771">10.48550/arxiv.2304.11771</a></div></div>
 </div>
 <div id="ref-kcW71VZV" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>The Agentic Automation Canvas: a structured framework for agentic AI project design</strong> <div class="csl-block">Sebastian Lobentanzer</div> <em>arXiv</em> (2026) <a href="https://doi.org/hbqdbk">https://doi.org/hbqdbk</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2602.15090">10.48550/arxiv.2602.15090</a></div></div>

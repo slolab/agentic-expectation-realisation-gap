@@ -8,7 +8,7 @@ keywords:
 - evaluation
 - governance
 lang: en-US
-date-meta: '2026-02-23'
+date-meta: '2026-02-25'
 author-meta:
 - Sebastian Lobentanzer
 header-includes: |
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
   <meta property="og:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
   <meta property="twitter:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
-  <meta name="dc.date" content="2026-02-23" />
-  <meta name="citation_publication_date" content="2026-02-23" />
-  <meta property="article:published_time" content="2026-02-23" />
-  <meta name="dc.modified" content="2026-02-23T19:01:58+00:00" />
-  <meta property="article:modified_time" content="2026-02-23T19:01:58+00:00" />
+  <meta name="dc.date" content="2026-02-25" />
+  <meta name="citation_publication_date" content="2026-02-25" />
+  <meta property="article:published_time" content="2026-02-25" />
+  <meta name="dc.modified" content="2026-02-25T14:29:41+00:00" />
+  <meta property="article:modified_time" content="2026-02-25T14:29:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/93c2d6d85011e1749810c2a39e1f1608e2aec4e0/))
+([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/))
 was automatically generated
-from [slolab/agentic-expectation-realisation-gap@93c2d6d](https://github.com/slolab/agentic-expectation-realisation-gap/tree/93c2d6d85011e1749810c2a39e1f1608e2aec4e0)
-on February 23, 2026.
+from [slolab/agentic-expectation-realisation-gap@990c846](https://github.com/slolab/agentic-expectation-realisation-gap/tree/990c846096f19fee6d0b9a80fb85bb9ce178eeaa)
+on February 25, 2026.
 </em></small>
 
 
@@ -107,7 +107,7 @@ We review controlled trials and independent validations across software engineer
 In software development, experienced developers expected a 24% speedup from AI tools but were slowed by 19%---a 43 percentage-point calibration error.
 In clinical documentation, vendor claims of multi-minute time savings contrast with measured reductions of less than one minute per note, and one widely deployed tool showed no statistically significant effect.
 In clinical decision support, externally validated performance falls substantially below developer-reported metrics.
-These shortfalls are driven by workflow integration friction, verification burden, measurement construct mismatches, and systematic heterogeneity in treatment effects.
+These shortfalls are driven by workflow integration friction, verification burden, measurement construct mismatches, and systematic variation in who benefits and who does not.
 The evidence motivates structured planning frameworks that require explicit, quantified benefit expectations with human oversight costs factored in.
 
 
@@ -117,8 +117,8 @@ Agentic AI systems---autonomous software agents that plan, reason, and execute m
 Vendor announcements routinely promise multi-minute time savings per encounter, double-digit percentage speedups, or near-expert-level decision accuracy.
 Procurement and investment decisions follow these expectations, committing substantial resources before deployment-grade evidence is available.
 
-Yet a growing body of controlled trials and independent external validations reveals that realised outcomes frequently fall short of pre-deployment expectations---sometimes dramatically so.
-This discrepancy, which we term the *expectation--realisation gap*, is not simply a matter of immature technology.
+Yet, as we explore below, a growing body of controlled trials and independent external validations reveals that realised outcomes frequently fall short of pre-deployment expectations.
+We term this discrepancy the *expectation--realisation gap*.
 It reflects systematic patterns in how agentic systems interact with human workflows, how performance is measured, and how benefits are distributed across user populations.
 
 Understanding and quantifying this gap is a prerequisite for responsible deployment.
@@ -132,16 +132,17 @@ This review synthesises the strongest available empirical evidence for the expec
 The sharpest illustration of the expectation--realisation gap comes from a randomised controlled trial conducted by METR (Model Evaluation & Threat Research) on 16 experienced open-source developers working in their own mature repositories across 246 real tasks [@doi:10.48550/arXiv.2507.09089].
 Before each task, participants forecast that AI assistance would reduce their completion time by 24%.
 The measured outcome was a 19% *increase* in completion time---a 43 percentage-point calibration error on the time-change scale, and a complete reversal in direction.
-Tasks took approximately 56% longer than developers expected (realised completion time factor 1.19 versus expected 0.76).
+Tasks took approximately 56% longer than developers expected.
 Intriguingly, AI-assisted developers also estimated 20% reduction in completion time *after* they had performed the task; the opposite of what had happened.
+Economics experts (N=34) and machine learning experts (N=54) overestimated the expected speedup even more dramatically, with 39% and 38%, respectively.
 
-This result contrasts instructively with a pre-release controlled trial of GitHub Copilot on developers recruited via Upwork, where treated participants completed a standardised, self-contained programming task 55.8% faster (95% CI 21--89%) [@doi:10.48550/arXiv.2302.06590].
+This result contrasts instructively with a controlled trial of GitHub Copilot on developers recruited via Upwork, where [treated participants](#glossary-treatment) completed a standardised, self-contained programming task 56% faster (95% CI 21--89%) [@doi:10.48550/arXiv.2302.06590].
 In that experiment, participants' self-estimated productivity gains averaged approximately 35%, meaning they *underestimated* the realised speedup.
 Of note, the task here was the same for all participants; the development of an HTTP server in JavaScript.
 The divergence between these two trials can be explained by task complexity.
 On constrained, well-defined tasks, AI coding tools can exceed expectations, particularly for less experienced professionals; the study notes that the benefit was greater for less experienced developers [@doi:10.48550/arXiv.2302.06590].
 In contrast, in high-context, real-world repositories, the same class of tools can impose net costs that even senior developers fail to anticipate.
-These findings are the first instance of heterogeneous treatment effects of agentic AI (see the [section on heterogeneity](#heterogeneity)).
+These findings are the first instance of [heterogeneous treatment effects](#glossary-hte) of agentic AI (see the [section on heterogeneity](#heterogeneity)).
 
 Field experiments at Microsoft and Accenture provide complementary information: developers assigned to Copilot completed 12.9--21.8% more pull requests per week at Microsoft and 7.5--8.7% more at Accenture, though the authors emphasise imprecision and threats to inference including low compliance and organisational confounds [@mit-genai-copilot-field].
 However, these throughput metrics do not account for code quality: independent security analyses find that 32.8% of Python and 24.5% of JavaScript snippets generated by Copilot are flagged with security issues [@doi:10.48550/arXiv.2310.02059], and Copilot can replicate known-vulnerable code patterns at rates around 33%, although it improves on unassisted human developers [@doi:10.48550/arXiv.2204.04741].
@@ -155,11 +156,11 @@ Vendor procurement narratives frequently frame benefits in terms of "minutes sav
 Evidence from controlled trials partly contradicts these claims.
 A randomised controlled trial at UCLA across 238 physicians in 14 specialties compared two commercial ambient scribe tools (DAX and Nabla) against usual care, with approximately 24 000 encounters per arm [@pmc:PMC12768499].
 Nabla reduced time-in-note by 9.5% relative to control (95% CI −17.2 to −1.8; P=0.02), while DAX showed no statistically significant effect (−1.7%, 95% CI −9.4 to +5.9; P=0.66).
-Partial adoption was a key contextual factor: the tools were used in only approximately 30--34% of visits, and roughly 15% of treatment-group physicians never used their assigned scribe at all.
-Clinicians did not strongly endorse that generated notes were "at least as good as my own"; and "occasional" clinically significant inaccuracies potentially led to a significant loss of time due to oversight activities.
+Partial adoption was a key contextual factor: the tools were used in only approximately 30--34% of visits, and roughly 15% of [treatment-group](#glossary-treatment) physicians never used their assigned scribe at all.
+Clinicians did not strongly endorse that generated notes were "at least as good as my own"; and "occasional" clinically significant inaccuracies potentially led to a significant loss of time due to oversight activities [@pmc:PMC12768499].
 
-A peer-matched cohort study of DAX in an integrated delivery system (99 providers, 12 specialties) found documentation EHR time fell from 5.3 to 4.54 minutes per patient---a saving of approximately 46 seconds---while after-hours EHR time *worsened* significantly, suggesting time-shifting rather than uniform savings [@pmc:PMC10990544].
-A pre/post study of the Abridge ambient listening tool across 332 physicians confirmed sub-minute savings: mean time in notes per note fell from 5.11 to 4.16 minutes (difference 57 seconds, 95% CI 29--85) [@pmc:PMC12657781].
+A peer-matched cohort study of DAX in an integrated delivery system (99 providers, 12 specialties) found documentation EHR time fell from 5.3 to 4.5 minutes per patient---a saving of approximately 46 seconds---while after-hours EHR time *worsened* significantly, suggesting time-shifting rather than uniform savings [@pmc:PMC10990544].
+A pre/post study of the Abridge ambient listening tool across 332 physicians confirmed sub-minute savings: mean time in notes per note fell from 5.1 to 4.2 minutes (difference 57 seconds, 95% CI 29--85) [@pmc:PMC12657781].
 In this study, adoption increased from 15% to 50% of physicians in the study span of 8 weeks; however, the total number of notes created by the scribe only increased from 5% to 15% at the end of the study period.
 
 The perception--reality mismatch that was found in [software engineering studies](#software-engineering-copilots) was replicated in a study of 252 physicians: 86.5% *perceived* that their documentation time had decreased, yet there was no overall association between perceived reductions and objectively measured time changes (OR 0.975, P=0.144) [@pubmed:41592210].
@@ -167,13 +168,14 @@ The objective effect was modest: each 10 percentage-point increase in AI scribe 
 
 ### Clinical decision support
 
-Independent external validation of proprietary clinical AI models provides some of the starkest expectation--realisation gaps.
+Where the preceding sections documented gaps in *time-savings* expectations, clinical decision support reveals equally stark expectation--realisation gaps in *accuracy and quality*---the benefit dimensions most directly linked to patient outcomes.
 The Epic Sepsis Model, widely implemented across US hospitals, was externally validated in a large academic health system (38 455 hospitalisations) with an area under the receiver operating characteristic curve (AUROC) of 0.63 (95% CI 0.62--0.64), while Epic previously reported AUROC values of 0.76--0.83 [@doi:10.1001/jamainternmed.2021.3333].
 At an operational alert threshold, the model achieved only 33% sensitivity (missing two thirds of septic patients), raising questions about clinical utility at scale.
 
 In oncology decision support, IBM publicised concordance rates as high as 96% for Watson for Oncology in lung cancer cases relative to a multidisciplinary tumour board [@ibm-watson-asco-2017].
 A subsequent peer-reviewed retrospective study in Korea found strict concordance of 48.9% for colon cancer, with "acceptable" concordance of 65.8% and strong heterogeneity by patient age (concordance dropping to approximately 20% among patients aged 70 and older) [@pubmed:30652564].
 This discrepancy reflected both definition dependence---concordance rose substantially when "for consideration" was treated as concordant---and local constraint mismatches in guidelines, reimbursement, and patient demographics that prevent cross-site transferability.
+In both cases, the expectation--realisation gap follows the same pattern as for time savings: internally reported metrics set expectations that external, deployment-grade evaluation cannot reproduce.
 
 ## Why expectations overshoot
 
@@ -182,7 +184,7 @@ The empirical evidence points to three recurrent mechanistic drivers that explai
 **Workflow integration friction and partial adoption.**
 Agentic AI systems do not operate in isolation; they must integrate into existing workflows, tools, and team practices.
 Clinical scribe evaluations repeatedly show partial adoption---tools used in a minority of encounters, with non-trivial drop-off over time [@pmc:PMC12768499;@pmc:PMC10990544].
-Even when per-use effects are real, intention-to-treat estimates are attenuated by low compliance, and the practical benefit to an organisation depends on the adoption rate actually achieved, not the rate assumed during procurement.
+Even when per-use effects are real, [intention-to-treat](#glossary-itt) estimates are attenuated by low compliance, and the practical benefit to an organisation depends on the adoption rate actually achieved, not the rate assumed during procurement.
 This is not always a simple, temporary onboarding issue; the UCLA RCT's 30--34% utilisation rate was observed over the full study period [@pmc:PMC12768499].
 
 **Verification and review burden.**
@@ -197,9 +199,18 @@ Vendor claims of "minutes saved per encounter" refer to broader workflow impacts
 Developer-reported model performance (AUROC 0.76--0.83 for Epic's sepsis model) reflects evaluation choices that can systematically inflate apparent performance relative to development goals [@doi:10.1001/jamainternmed.2021.3333].
 The gap between lab-task performance and field performance in software copilots is a measurement construct problem at its core: bounded tasks estimate *tool capability under low-context load*, while field trials estimate *net productivity under realistic verification and integration costs* [@doi:10.48550/arXiv.2507.09089;@doi:10.48550/arXiv.2302.06590].
 
+These three drivers interact and compound over time, fueling inflated expectations.
+Workflow integration depends on existing competence: experienced professionals can restructure their work around agentic tools while less experienced users lack the mental models to do so effectively.
+Verification burden scales inversely with expertise: a senior developer can spot a flawed code suggestion quickly, whereas a junior developer may accept it uncritically or spend disproportionate time reviewing it.
+And measurement construct mismatches extend to the time horizon of measurement itself: short-term productivity metrics cannot capture costs that materialise only over longer periods.
+For instance, the level of knowledge in the workforce is a slowly developing phenomenon relative to the speed at which agentic technologies are introduced.
+A randomised controlled trial in higher education found that students who used ChatGPT as a study aid scored significantly lower on a surprise retention test 45 days later (57.5% vs 68.5%; Cohen's d = 0.68) [@chatgpt-retention-rct], suggesting that cognitive offloading can trade immediate task completion for degraded durable learning.
+A parallel study in software engineering found that AI use impaired the users' conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average [@doi:10.48550/arXiv.2601.20245].
+Ignoring these interactions when planning the deployment of an agentic system will systematically overestimate its net benefits.
+
 ## Heterogeneity as the default {#heterogeneity}
 
-Across every domain reviewed, treatment effects are not uniform.
+Across every domain reviewed, [treatment effects](#glossary-treatment-effect) are not uniform.
 They are systematically moderated by baseline user efficiency, task complexity, and local context.
 This implies that development of systems useful in practice requires careful planning that respects treatment heterogeneity.
 
@@ -208,13 +219,9 @@ In customer support, a field study of 5,172 agents found an average 15% producti
 This heterogeneity is not only observed inter-individually but also at the intra-individual level; given a single agent, gains from AI adoption are larger for relatively rare tasks, where human users have less baseline training and experience [@doi:10.48550/arXiv.2304.11771].
 In software engineering, the METR trial specifically selected experienced developers working in familiar repositories---precisely the population most likely to have optimised their workflows already---and this is the population that was slowed [@doi:10.48550/arXiv.2507.09089].
 
-**In summary, there is currently no stable, globally positive treatment effect for agentic AI.**
+**In summary, there is currently no stable, globally positive [treatment effect](#glossary-treatment-effect) for agentic AI.**
 Average headline figures (whether from vendors, lab trials, or even well-designed field studies) will systematically misrepresent the benefit realised by any specific user, team, or organisation.
 Planning that relies on average expected gains without modelling who benefits and who does not will over-invest in low-yield deployments and under-invest in targeted high-yield ones.
-
-Adjacent experimental evidence reinforces this concern on a longer time horizon.
-A randomised controlled trial in higher education found that students who used ChatGPT as a study aid scored significantly lower on a surprise retention test 45 days later (57.5% vs 68.5%; Cohen's d = 0.68) [@chatgpt-retention-rct], suggesting that cognitive offloading can trade immediate task completion for degraded durable learning---a dimension of "benefit" that short-term productivity metrics entirely miss.
-A parallel study in software engineering found that AI use impaired conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average [@doi:10.48550/arXiv.2601.20245].
 
 ## Implications for structured planning
 
@@ -223,8 +230,8 @@ This is not an argument against agentic AI---the evidence also shows that real g
 It is an argument for *structured planning that takes the gap seriously*.
 
 Several design principles follow directly from the empirical patterns.
-First, **benefit expectations must be explicit and quantified**, not framed as vague promises of efficiency.
-The contrast between "5 minutes saved per encounter" marketing and sub-minute measured reductions illustrates what happens when expectations lack precision [@pmc:PMC12768499].
+First, **benefit expectations must be explicit and quantified across all relevant dimensions**, rather than framed as vague promises of efficiency.
+The contrast between "5 minutes saved per encounter" marketing and sub-minute measured reductions illustrates what happens when time-based expectations lack precision [@pmc:PMC12768499]; the gap between developer-reported AUROC (0.76--0.83) and externally validated AUROC (0.63) for the Epic Sepsis Model shows the same pattern for accuracy metrics [@doi:10.1001/jamainternmed.2021.3333].
 Second, **expectations should capture dual perspectives**---what users expect to gain and what developers assess as technically feasible. 
 Miscalibration occurs on both sides: developers overshoot in internal validation; users overshoot in self-forecasts.
 The estimate--reality mismatch in the METR study, which persisted even after implementation, illustrates the cognitive biases at play [@doi:10.48550/arXiv.2507.09089].
@@ -234,7 +241,9 @@ Fourth, **outcome metrics must link back to initial expectations** in the same u
 Ideally, plans are formalised early, versioned, and archived, in order to facilitate these later comparisons.
 Fifth, **heterogeneity should be modelled explicitly** by specifying which user populations and task types are expected to benefit, rather than assuming uniform effects.
 
-These principles are implemented in the [Agentic Automation Canvas (AAC)](https://aac.slolab.ai), a structured framework for designing, governing, and documenting agentic automation projects that captures user expectations as quantified benefit metrics with baseline values, confidence levels from both user and developer perspectives, and explicit accounting for human oversight [@doi:10.48550/arXiv.2602.15090].
+One way to operationalise these principles is the [Agentic Automation Canvas (AAC)](https://aac.slolab.ai), a structured framework for designing, governing, and documenting agentic automation projects [@doi:10.48550/arXiv.2602.15090].
+The canvas captures user expectations as quantified benefit metrics across five dimensions---time, quality, risk, enablement, and cost---with baseline values, confidence levels from both user and developer perspectives, and explicit accounting for human oversight.
+This multi-dimensional structure reflects the evidence reviewed here: the expectation--realisation gap manifests not only in time savings (as in software engineering and clinical documentation) but equally in accuracy and quality metrics (as in clinical decision support), and planning frameworks must accommodate all of these.
 The canvas formalises the bidirectional contract between stakeholders that the evidence reviewed here shows is necessary: without structured mechanisms for surfacing and testing expectations, the gap between aspiration and reality will persist.
 
 ## Conclusion
@@ -247,6 +256,46 @@ Closing the expectation--realisation gap requires moving from *ad hoc* expectati
 It also requires a mature interdisciplinary approach; mismatch from psychological bias cannot be countered by computer science methodology, and building better AI models will not solve all socio-technical problems in deployment and adoption.
 The alternative to closing the gap is to continue relying on artificial benchmark results, marketing claims, and intuitive forecasts.
 In all likelihood, this will perpetuate a cycle of over-promise and under-delivery that erodes trust in systems that, when properly targeted and governed, can deliver genuine value.
+
+
+## Glossary of experimental terms {.page_break_before}
+
+This review draws on evidence from controlled experiments across multiple domains.
+The following terms, standard in medicine, economics, and the social sciences, are used throughout.
+
+### Randomised controlled trial (RCT) {#glossary-rct}
+
+An experimental design in which participants are randomly assigned to either a *treatment* group or a *control* group.
+Random assignment ensures that observed differences in outcomes can be attributed to the intervention rather than to pre-existing differences between groups.
+In this review, RCTs include trials of AI coding assistants, ambient clinical scribes, and clinical decision-support models.
+
+### Treatment and intervention {#glossary-treatment}
+
+The *treatment* (or *intervention*) is the condition being evaluated in an experiment---for example, giving developers access to an AI coding assistant or equipping physicians with an ambient scribe.
+Participants who receive the treatment are referred to as *treated participants* or the *treatment group*.
+
+### Control {#glossary-control}
+
+The *control* condition is the comparison group that does not receive the intervention.
+Control participants continue with their usual workflow, providing a baseline against which the treatment's effect is measured.
+
+### Treatment effect {#glossary-treatment-effect}
+
+The *treatment effect* is the measured difference in outcomes between the treatment group and the control group.
+For example, if treated developers complete tasks 20% faster than control developers, the treatment effect is a 20% reduction in completion time.
+A treatment effect can be positive (the intervention helps), negative (it hurts), or null (no detectable difference).
+
+### Intention-to-treat analysis {#glossary-itt}
+
+*Intention-to-treat* (ITT) analysis includes all participants as originally assigned---whether or not they actually used the tool.
+This preserves the validity of randomisation and reflects real-world conditions, where not everyone who is offered a tool adopts it.
+ITT estimates are typically smaller than per-use estimates because non-adopters dilute the measured effect.
+
+### Heterogeneous treatment effects {#glossary-hte}
+
+*Heterogeneous treatment effects* means that the size (or direction) of the treatment effect varies across subgroups.
+For instance, less experienced developers may benefit substantially from AI assistance while expert developers see no gain or a net slowdown.
+Recognising heterogeneity is critical for deployment planning: an average treatment effect can mask the fact that some users benefit greatly while others are harmed.
 
 
 ## References {.page_break_before}
