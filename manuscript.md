@@ -8,7 +8,7 @@ keywords:
 - evaluation
 - governance
 lang: en-US
-date-meta: '2026-02-25'
+date-meta: '2026-02-26'
 author-meta:
 - Sebastian Lobentanzer
 header-includes: |
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
   <meta property="og:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
   <meta property="twitter:title" content="Quantifying the Expectation–Realisation Gap for Agentic AI Systems" />
-  <meta name="dc.date" content="2026-02-25" />
-  <meta name="citation_publication_date" content="2026-02-25" />
-  <meta property="article:published_time" content="2026-02-25" />
-  <meta name="dc.modified" content="2026-02-25T14:29:41+00:00" />
-  <meta property="article:modified_time" content="2026-02-25T14:29:41+00:00" />
+  <meta name="dc.date" content="2026-02-26" />
+  <meta name="citation_publication_date" content="2026-02-26" />
+  <meta property="article:published_time" content="2026-02-26" />
+  <meta name="dc.modified" content="2026-02-26T10:36:07+00:00" />
+  <meta property="article:modified_time" content="2026-02-26T10:36:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/agentic-expectation-realisation-gap/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/agentic-expectation-realisation-gap/v/3573e599257adcebaa303663986f23e9a01600fe/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/3573e599257adcebaa303663986f23e9a01600fe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/agentic-expectation-realisation-gap/v/3573e599257adcebaa303663986f23e9a01600fe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/990c846096f19fee6d0b9a80fb85bb9ce178eeaa/))
+([permalink](https://slolab.github.io/agentic-expectation-realisation-gap/v/3573e599257adcebaa303663986f23e9a01600fe/))
 was automatically generated
-from [slolab/agentic-expectation-realisation-gap@990c846](https://github.com/slolab/agentic-expectation-realisation-gap/tree/990c846096f19fee6d0b9a80fb85bb9ce178eeaa)
-on February 25, 2026.
+from [slolab/agentic-expectation-realisation-gap@3573e59](https://github.com/slolab/agentic-expectation-realisation-gap/tree/3573e599257adcebaa303663986f23e9a01600fe)
+on February 26, 2026.
 </em></small>
 
 
@@ -115,7 +115,7 @@ The evidence motivates structured planning frameworks that require explicit, qua
 
 Agentic AI systems---autonomous software agents that plan, reason, and execute multi-step tasks with limited human oversight---are being adopted across software engineering, clinical medicine, and customer operations with the expectation of transformative productivity gains.
 Vendor announcements routinely promise multi-minute time savings per encounter, double-digit percentage speedups, or near-expert-level decision accuracy.
-Procurement and investment decisions follow these expectations, committing substantial resources before deployment-grade evidence is available.
+Procurement and investment decisions follow these expectations, committing substantial resources before deployment-grade evidence is available [@doi:10.1016/j.eclinm.2025.103481].
 
 Yet, as we explore below, a growing body of controlled trials and independent external validations reveals that realised outcomes frequently fall short of pre-deployment expectations.
 We term this discrepancy the *expectation--realisation gap*.
