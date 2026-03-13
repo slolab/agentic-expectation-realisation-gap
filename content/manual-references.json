@@ -88,5 +88,38 @@
       "family": "Shahzad"
     }
   ]
+},
+{
+  "id": "mit-genai-divide-2025",
+  "type": "report",
+  "URL": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+  "title": "The GenAI Divide: State of AI in Business 2025",
+  "publisher": "MIT Project NANDA",
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        7
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Aditya",
+      "family": "Challapally"
+    },
+    {
+      "given": "Chris",
+      "family": "Pease"
+    },
+    {
+      "given": "Ramesh",
+      "family": "Raskar"
+    },
+    {
+      "given": "Pradyumna",
+      "family": "Chari"
+    }
+  ]
 }
 ]
